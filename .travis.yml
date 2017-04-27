@@ -1,2 +1,2 @@
 language: java
-script: echo ${PATH} && travis_retry mvn --version
+script: echo ${PATH} && travis_retry mvn --version && which ls
