@@ -1,1 +1,1 @@
-script: echo TRAVIS RANGE ${TRAVIS_COMMIT_RANGE} && git diff --name-status ${TRAVIS_COMMIT_RANGE}
+script: echo TRAVIS RANGE ${TRAVIS_COMMIT_RANGE} && env && git diff --name-status ${TRAVIS_COMMIT_RANGE}
