@@ -1,2 +1,2 @@
 language: java
-script: echo TRAVIS RANGE: ${TRAVIS_COMMIT_RANGE} && env
+script: echo TRAVIS RANGE ${TRAVIS_COMMIT_RANGE} && env
