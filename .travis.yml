@@ -1,2 +1,2 @@
 language: java
-script: echo ${PATH} && travis_retry mvn --version && which ls
+script: echo "TRAVIS RANGE: ${TRAVIS_COMMIT_RANGE}"; env
