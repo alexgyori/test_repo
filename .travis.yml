@@ -1,4 +1,4 @@
-script: echo TRAVIS RANGE ${TRAVIS_COMMIT_RANGE} && git diff --name-status ${TRAVIS_COMMIT_RANGE} && echo CHECKING CONTENTS! && ls
+script: bash ./s.sh
 
 cache:
     directories:
