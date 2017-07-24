@@ -1,1 +1,5 @@
-script: echo TRAVIS RANGE ${TRAVIS_COMMIT_RANGE} && git diff --name-status ${TRAVIS_COMMIT_RANGE}
+script: echo TRAVIS RANGE ${TRAVIS_COMMIT_RANGE} && git diff --name-status ${TRAVIS_COMMIT_RANGE} && if [[ -d foo/ ]]; then echo EXISTS!!!!; else echo MISSING!!!; mkdir foo/; fi
+
+cache:
+    directories:
+    - foo/
