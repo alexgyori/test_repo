@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "START"
+echo "START!"
 ls foo/
 echo "LINE" >> foo/f
 echo "CHECKING CONTENTS OF F"
