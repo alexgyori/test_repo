@@ -16,3 +16,4 @@ abc
 efg
 hij
 EOF
+exit
