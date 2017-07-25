@@ -1,4 +1,4 @@
-package edu.illinois.proj1;
+package edu.illinois.proj2;
 
 import org.junit.Test;
 import static org.junit.Assert.assertTrue;
