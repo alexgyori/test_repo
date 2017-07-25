@@ -6,14 +6,14 @@ import static org.junit.Assert.assertTrue;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class Test1
 {
 
     /**
      * Rigourous Test :-)
      */
     @Test
-    public void testApp()
+    public void test1()
     {
         assertTrue( true );
     }
