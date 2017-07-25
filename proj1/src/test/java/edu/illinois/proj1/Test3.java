@@ -15,6 +15,6 @@ public class Test3
     @Test
     public void test3()
     {
-        assertTrue( true );
+        assertTrue( false );
     }
 }
