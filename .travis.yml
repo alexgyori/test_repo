@@ -1,6 +1,6 @@
 script:
 - (DIR=$(pwd); cd foo; for f in $(find -name ".surefire*"); do cp --parents ${f} ${DIR}/; done)
-- bash ./s.sh
+- mvn test
 - for f in $(find -name ".surefire*"); do cp --parents ${f} foo/; done
 
 cache:
