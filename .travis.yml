@@ -1,4 +1,7 @@
-script: bash ./s.sh
+script:
+- (DIR=$(pwd); cd foo; for f in $(find -name ".surefire*"); do cp --parents ${f} ${DIR}/; done)
+- bash ./s.sh
+- for f in $(find -name ".surefire*"); do cp --parents ${f} foo/; done
 
 cache:
     directories:
